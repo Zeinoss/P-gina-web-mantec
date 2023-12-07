@@ -1,0 +1,96 @@
+/*diseños generales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'geneva';
+}
+
+.contenedor{
+    padding: 30px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*diseño del header*/
+header {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+}
+
+header img {
+    width: auto; 
+    height: 80px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*diseño de la primera sección*/
+.contenedor-info-empleado{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-empleado{
+    width: 30%;
+}
+
+.info-empleado .contenido-textos{
+    width: 48%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*aquí va el diseño del footer*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #9e9797;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #9e9797;
+    border-bottom: 3px solid #9e9797;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #9e9797;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
