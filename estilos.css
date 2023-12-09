@@ -6,28 +6,37 @@
 }
 
 body{
-    font-family: 'geneva';
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main{
+    background-image: url('img/bg.png');
+    background-size: 60%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .contenedor{
-    padding: 30px 0;
+    padding-top: 30px;
     width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
+    padding-bottom: 40px;
 }
 
 .titulo{
     font-size: 30px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 /*diseño del header*/
 header {
     position: relative;
-    background-color: white;
+    background-color: #1d1d1b;
     padding: 20px;
+    padding-bottom: 60px;
 }
 
 header img {
@@ -47,6 +56,7 @@ header img {
 
 .imagen-empleado{
     width: 30%;
+    padding-right: 10px;
 }
 
 .info-empleado .contenido-textos{
@@ -55,10 +65,47 @@ header img {
     padding-top: 100px;
 }
 
+.contenido-textos h1{
+    font-size: 50px;
+}
 
-/*aquí va el diseño del footer*/
+.info-empleado .contenido-textos p{
+    font-size: 30px;
+}
+
+/*Diseño de la segunda sección*/
+.contenedor-detalles{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-marce{
+    width: 25%;
+    padding-right: 15px;
+}
+
+.detalles .contenido-textos{
+    width: 48%;
+    text-align: center;
+    padding-top: 55px;
+    padding-left: 8px;
+}
+
+.detalles .contenido-textos p{
+    font-size: 28px;
+}
+
+/*Diseño de la tercer sección*/
+
+button, input[type="button"] {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px; 
+    padding: 10px 20px; 
+}
+
+/*Diseño del footer*/
 footer{
-    background: #414141;
+    background: #1d1d1b;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Empleado MANTEC</title>
+    <title>Colaborador MANTEC</title>
     <link rel="shortcut icon" href="img/lomgo.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap">
 </head>
 <body>
     <header>
@@ -17,32 +18,28 @@
     <main>
         <section class="contenedor info-empleado">
             <div class="contenedor-info-empleado">
-                <img src="img/placeHolder.png" alt="" class="imagen-empleado">
+                <img src="img/placeHolder.jfif" alt="" class="imagen-empleado">
                 <div class="contenido-textos">
                     <center></center><h1>GUSTAVO ADOLFO CRUZ GARCIA </h1></center>
-                    <center></center><h2>Puesto</h2></center>
+                    <center></center><p>Especialista en Soporte Técnico IT</p></center>
                 </div>
             </div>
         </section>
         <section class="contenedor detalles">
             <div class="contenedor-detalles">
-                <img src="img/cheque.png" alt="" class="imagen-empleado">
+                <img src="img/cheque.png" alt="" class="imagen-marce">
                 <div class="contenido-textos">
-                    <p>COLABORADOR ACTIVO - MANTEC</p>
-                    <p>DPI: (número dpi)</p>
-                    <p>Licencia de conducir: (Tipo de licencia)</p> 
-                    <p>Actualización: (ultima actualización)</p>
+                    <center><p>COLABORADOR ACTIVO - MANTEC</p></center>
+                    <center><p>DPI: 1811 81711 0101</p></center>
+                    <center><p>Licencia de conducir: Tipo "C"</p></center> 
+                    <center><p>Actualización: Año 2024</p></center>
                 </div>
             </div>
         </section>
         <section class="contenedor comentarios">
             <div class="contenedor-comentarios">
-                <h3 class = "titulo">Comentarios y/o sugerencias:</h3>
                 <div class="contenido-coment">
-                    <p>Comentario</p>
-                    <textarea id="miComentario" name="miComentario" placeholder="Escribe aquí..."></textarea>
-                    </br>
-                    <input type="button" value="Enviar">
+                    <center><input type="button" value="Llenar encuesta de Colaborador" id="redireccionarBtn"></center>
                 </div>
             </div>
         </section>
@@ -59,12 +56,22 @@
                 <p>eduardopinillos@mantecgt.com</p>
             </div>
             <div class="content-foo">
-                <h4>País</h4>
-                <p>Guatemela</p>
+                <h4>Cargo</h4>
+                <p>Gerente de operaciones</p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; MANTEC | Federico Pinillos</h2>
+        <h2 class="titulo-final">&copy; MANTEC</h2>
         </section>
     </footer>
 </body>
 </html>
+
+<script>
+    // Obtener el botón por su id
+    var boton = document.getElementById("redireccionarBtn");
+    // Agregar un event listener para el evento "click"
+    boton.addEventListener("click", function() {
+        // Redirigir a google.com
+        window.location.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__f83iyBUNDNDWTQyQzRCTDA3NUpHODVSMU85TDhZTy4u";
+    });
+</script>
