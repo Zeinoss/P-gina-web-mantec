@@ -37,12 +37,13 @@ header {
     background-color: #1d1d1b;
     padding: 20px;
     padding-bottom: 60px;
+    height: 180px;
 }
 
 header img {
     width: auto; 
-    height: 80px; 
-    position: absolute;
+    height: 150px; 
+    position: right;
     top: 0;
     right: 0;
 }
