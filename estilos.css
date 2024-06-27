@@ -142,3 +142,29 @@ footer{
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+.boton-azul {
+    color: #fff;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+}
+
+  /* Efecto hover */
+.boton-azul:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.info-empleado .contenido-Nombres{
+    width: 69%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contenido-Nombres h1{
+    font-size: 50px;
+}
+
+.info-empleado .contenido-Nombres p{
+    font-size: 30px;
+}
